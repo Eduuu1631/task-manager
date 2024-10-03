@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #121212;
+    color: #E0E0E0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #BB86FC;
+  }
+  
+  .task-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    flex-grow: 1;
+    border: 1px solid #BB86FC;
+    border-radius: 5px;
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #BB86FC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #985EFF;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E1E1E;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  li.completed {
+    background-color: #333333;
+    text-decoration: line-through;
+  }
+  
+  .task-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-checkbox {
+    margin-right: 10px;
+  }
+  
